@@ -7,12 +7,12 @@ Installation
 =============================
 * clone this repo
 * drag .h/.m files into project
-* add "SpaceBrew.h"
+* import "SpaceBrew.h" in your classes header
 * add delege <SpaceBrewDelegate>
 * create a SpaceBrew object
 * implement delegate methods
 
-Requirements
+Requirements/Dependencies
 =============================
 * SocketRocket: https://github.com/square/SocketRocket
 
@@ -24,3 +24,8 @@ Docs
 Installing with Cocoa Pods
 =============================
 * coming soon
+
+Level of Framework Support
+=============================
+* only strings at the moment
+* working on better callback support
